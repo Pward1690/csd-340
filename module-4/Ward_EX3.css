@@ -1,0 +1,52 @@
+/* Parrish Ward, 8-29-21, csd-340 module 4.3 */
+#page-title {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+#Books {
+    width: 45%;
+    float: left;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#Learned {
+    width: 45%;
+    float: right;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#roman {
+    list-style-type: upper-roman;
+}
+
+#footer {
+    margin-top: 60%;
+    width: 100%;
+}
+
+#back-to-portal {
+    float: right;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+#back-to-portal {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+#back-to-portal:hover {
+    text-decoration: underline;
+}

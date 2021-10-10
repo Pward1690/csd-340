@@ -1,0 +1,144 @@
+<!--Parrish Ward. 10-9-21. Module 12.3. CSD 340. Final HTML 5-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <link rel="stylesheet" type="text/css" href="ward-final.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="home">
+       P. Ward - CSD 340 Final Landing Page
+    </header>
+
+    <nav class="navbar"> 
+        <a href="#home">Home</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#experience">Experience</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="hobbies" id="hobbies">
+            <h1>Hobbies</h1>
+
+            <div class="grid-3-col">
+                <div class="card">
+                    <div class="card-title">
+                        Basketball
+                    </div>
+                    <div class="card-content">
+                        <img src="images/pioneerpark.jpeg" alt="Pioneer Park" class="center">
+                        <br/>
+                        These are the basketball courts of Pioneer Park in Kankakee, Illinois where I can honestly say I have faced some of the best basketball talent in my life.
+                        Pioneer Park became one of those courts that if you're not good enough then you'll never see the main court. 
+                        It was a hierarchy or sorts, but every young basketball player from this town wanted to get the chance to play on what is considered the "main court".
+                        My love for basketball started at this place. I credit it for teaching me a significant amount of things outside of how to play the game.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        Gaming
+                    </div>
+                    <div class="card-content">
+                        <img src="images/gamepass.jpeg" alt="Microsoft Gamepass" class="center">
+                        <br/>
+                        I do not have time to game it seems, but when I do I am so thankful for Microsoft/Xbox Gamepass. 
+                        This pass allows for me to pay a monthly fee to have access to hundreds of full AAA game titles.
+                        AAA games are games produced by the major gaming companies. Gaming is my getaway when music is not around. 
+                        Gamepass is portable and is now accessible from my iPad, which means my wife can watch her shows while I get my quick gaming fix of Forza Horizon 4: Racing game.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        Photography
+                    </div>
+                    <div class="card-content">
+                        <img src="images/sony.jpeg" alt="Sony a7iii" class="center">
+                        <br/>
+                        If you were to ask my friends they would say that I am the best mobile photographer they personally know.
+                        I take a lot of pride in this and have now ventured into Sony/Fujifilm mirrorless cameras. I chose against DSLR only because of the lightweight of mirrorless cameras.
+                        In my opinion, I have a great eye for scene and portrait photography and would like to explore this hobby a lot more in my free time.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br /><br /><br /><br /><br />
+        <div class="experience" id="experience">
+            <h1>Experience</h1>
+
+            <div class="grid-3-col">
+                <div class="card">
+                    <div class="card-title">
+                        Banker
+                    </div>
+                    <div class="card-content">
+                        I am currently a banker in the midwest region and after receiving my degree I plan to advance within the banking field and create software.
+                        Being a banker, sometimes when I run a teller line I notice how dated the software is and how certain revision could allow for significant more privacy and quicker transactions.
+                </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        Residential home remodeling
+                    </div>
+                    <div class="card-content">
+                        Once my time ended in the military I decided to stay in Omaha, Nebraska where I made friends that I quickly began to identify more as best friends and family.
+                        My best-friend and his father had a siding company in which I became an 8 year employee of as they taught me everything there is to remodeling house siding with different types of siding lap.
+                        My position was usually the cut-man, I installed a lot as well but we had enough people to install and I was the only one outside of the owner who knew how to cut at pace to keep up. 
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        Air Force
+                    </div>
+                    <div class="card-content">
+                        My time in the United States Air Force was nothing short of amazing and life changing. I was a radiological technologist. 
+                        I learned how to perform just about every diagnostic image from x-ray, GI scopes, CT scans, and barium studies. 
+                        My contract in the military was short, but as a veteran I recommend it to everyone who is curious. I am unsure if I would re-enlist at this very moment, but if I did I would re-enlist as an Airman again. 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-container">
+            <div class="card full-width">
+                <div class="card-title">
+                    Contact Form
+                </div>
+
+                <div class="card-content">
+
+                    <div class="form">
+                        <div class="form-field">
+                            <label for="txtFirstName">First name:</label>
+                            <input type="text" id="txtFirstName" class="input" name="txtFirstName" />
+                        </div>
+                        <div class="form-field">
+                            <label for="txtLastName">Last name:</label>
+                            <input type="text" id="txtLastName" class="input" name="txtLastName" />
+                        </div>
+                        <div class="form-field">
+                            <label for="txtEmail">Email:</label>
+                            <input type="text" id="txtEmail" class="input" name="txtEmail" />
+                        </div>
+                        <div class="form-field">
+                            <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

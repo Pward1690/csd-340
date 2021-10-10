@@ -55,25 +55,26 @@ h1 {
 
 .card-content {
     padding: 2px 16px;
+    border-style: dashed;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-#movies {
+.movies {
     border-collapse: collapse;
     bottom: 30px;
     width: 100%;
 }
 
-.movies th {
+th {
     padding-top:12px;
     padding-bottom:12px;
     text-align:left;
 }
 
-.movies td {
+td {
     border: 1px solid #ddd;
     padding: 8px;
 
